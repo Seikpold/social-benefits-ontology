@@ -5,10 +5,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://seikpold.github.io/social-benefits-ontology/social-benefits-ontology.ttl>  rdf:type owl:Ontology ;
-                                                                                    dc:title "Social Benefits Ontology" ;
-                                                                                    rdfs:comment "This ontology models information relevant to assess eligibility for social benefits in Germany. It was desgined as supporting material for my Master's thesis 'Text2SHACL: LLM-Driven Generation of Validation Graphs for Automatic Assessment of Social Benefit Eligibility'."@en ;
-                                                                                    rdfs:seeAlso <https://github.com/semantic-systems/text-to-SHACL.git> .
+<https://seikpold.github.io/social-benefits-ontology/social-benefits-ontology.ttl>  
+  rdf:type owl:Ontology ;
+  dc:title "Social Benefits Ontology" ;
+  rdfs:comment """
+      This ontology models information relevant to assess eligibility for social 
+      benefits in Germany. It was desgined as supporting material for my Master's 
+      thesis 'Text2SHACL: LLM-Driven Generation of Validation Graphs for Automatic 
+      Assessment of Social Benefit Eligibility'."""@en ;
+  rdfs:seeAlso <https://github.com/semantic-systems/text-to-SHACL.git> .
 
 #################################################################
 #    Object Properties
